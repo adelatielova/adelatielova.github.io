@@ -20,7 +20,12 @@
     color: red;
 }
 .text-second {
-    color: darkred;
+    color: deeppink;
+    font-size: xx-large;
+}
+.podtext2 {
+    color: hotpink;
+    font-size: large;
 }
 .lead {
     font-size: 20px;
@@ -43,7 +48,17 @@ h1, h2, h3 {
 p {
     margin: 10px 0;
 }
+.text-third {
+    color: orangered;
+    font-size: xx-large;
+}
+.podtext1 {
+    color: orangered;
+    font-size: large;
+}
+li {
 
+}
 
 /*padding*/
 .py-1 { padding: 10px 0; }
