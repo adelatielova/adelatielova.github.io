@@ -20,7 +20,7 @@
     color: red;
 }
 .text-second {
-    color: red;
+    color: darkslateblue;
     font-size: xx-large;
 }
 .text2 {
@@ -74,7 +74,7 @@ border: 1px solid black;
     font-size: 40px;
 }
 .bg-dark {
-    background: indianred;
+    background: darkslateblue;
     color: white;
 }
 .bg-light {
