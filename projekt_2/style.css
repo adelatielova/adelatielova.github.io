@@ -87,6 +87,7 @@ list-style: none;
     background-color: black;
     color: white;
 }
+
 .container {
     max-width: 1100px;
     margin: auto;
@@ -118,6 +119,7 @@ list-style: none;
 #what .item {
     text-align: center;
     padding: 1rem;
+    flex: 1;
 }
 #what .items .item i {
     background-color: darkslateblue;
