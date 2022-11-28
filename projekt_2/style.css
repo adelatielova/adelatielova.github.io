@@ -6,12 +6,29 @@
 body {
     font-family: 'Comfortaa', cursive;
 }
-.text-primory {
+.bg-light {
+    background-color: white;
+    color: black;
+}
+.bg-dark {
+    background-color: #333333;
+    color: white;
+}
+.text-primary {
     color: darkslateblue;
 }
 p {
     margin: 0.75rem 0;
 }
+.list li {
+    padding: 0.5rem 0;
+    border-bottom: #aaaa dotted 1px;
+}
+.list   {
+    margin: 0.5rem 0;
+    list-style: none;
+}
+
 /*navbar*/
 #navbar {
     background: #333;
@@ -68,6 +85,12 @@ list-style: none;
     margin-bottom: 0.75rem;
     line-height: 1.1;
 }
+.m-heading {
+    font-size: 2rem;
+    margin-bottom: 0.75rem;
+    line-height: 1.1;
+    text-align: center;
+}
 .lead {
     font-size: 1.3rem;
     margin-bottom: 2rem;
@@ -111,6 +134,15 @@ list-style: none;
 .py-3 {
     padding: 3rem 0;
 }
+.p-1 {
+    padding: 1.5rem;
+}
+.p-2 {
+    padding: 2rem;
+}
+.p-3 {
+    padding: 3rem;
+}
 /*section co dělame */
 #what .items {
     display: flex;
@@ -126,4 +158,41 @@ list-style: none;
     padding: 1rem;
     border-radius: 50%;
     margin-bottom: 1rem;
+}
+#project {
+    display: flex;
+}
+#project .project_img {
+    background: url("https://source.unsplash.com/random/?husky") no-repeat center center/cover;
+}
+#project div {
+    flex: 1;
+}
+/* kdo jsme */
+#who {
+    display: flex;
+}
+#who div {
+    flex: 1;
+}
+#who .who-img {
+    background: url("https://source.unsplash.com/random/?husky") no-repeat center center/cover;
+}
+/*kontakt*/
+#contact {
+    display: flex;
+}
+#contact div {
+    flex: 1;
+}
+#contact .contact-form .form-group {
+    margin: 0.75rem;
+}
+#contact .contact-form label {
+    display: block;
+}
+#contact .contact-form input,
+#contact .contact-form textarea {
+    width: 100%;
+    padding: 0.5rem;
 }
