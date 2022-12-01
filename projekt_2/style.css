@@ -39,7 +39,7 @@ p {
     align-items: center;
     position: sticky;
     position: -webkit-sticky;
-    top: 0px;
+    top: 0;
 }
 
 #navbar a {
