@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="cs">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vektor</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+
+</head>
+
+<body>
+    <div class="input">
+        <h1>Zadej souřadnice</h1>
+        <form>
+            <h2>První vektor</h2>
+            <input type="number" id="ax" name="ax" placeholder="X" required>
+            <input type="number" id="ay" name="ay" placeholder="Y" required>
+            <h2>Druhý vektor</h2>
+            <input type="number" id="bx" name="bx" placeholder="X" required>
+            <input type="number" id="by" name="by" placeholder="Y" required>
+            <button type="submit">Vypočítat</button>
+        </form>
+    </div>
+    <div class="results">
+        <h1>Výsledek</h1>
+        <p id="delkau">Délka vektoru u:</p>
+        <p id="delkav">Délka vektoru v:</p>
+        <p id="soucet">Součet vektorů:</p>
+        <p id="rozdil">Rozdíl vektorů:</p>
+        <p id="soucin">Skalární součin:</p>
+        <p id="odchylka">Odchylka vektorů:</p>
+        <p id="rovnobeznost">Rovnoběžnost vektorů:</p>
+    </div>
+</body>
+
+</html>
